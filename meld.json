@@ -1,0 +1,224 @@
+[
+    {
+        "marriage": {
+            "name": "Marriage",
+            "value": 2,
+            "trump": false,
+            "must_span_all_suits": false,
+            "same_suit": true,
+            "priority": 0,
+            "cache": "marriage",
+            "cards": [
+                {"face_value": "Queen", "suite": null, "quantity": 1},
+                {"face_value": "King", "suite": null, "quantity": 1}
+            ]
+        }
+    },
+    {
+        "trump_marriage": {
+            "name": "Trump Marriage",
+            "value": 4,
+            "trump": true,
+            "must_span_all_suits": false,
+            "same_suit": true,
+            "priority": 0,
+            "cache": "marriage",
+            "cards": [
+                {"face_value": "Queen", "suite": null, "quantity": 1},
+                {"face_value": "King", "suite": null, "quantity": 1}
+            ]
+        }
+    },
+    {
+        "run": {
+            "name": "Run",
+            "value": 15,
+            "trump": true,
+            "must_span_all_suits": false,
+            "same_suit": true,
+            "priority": 0,
+            "cache": "run",
+            "cards": [
+                {"face_value": "Ace", "suite": null, "quantity": 1},
+                {"face_value": "10", "suite": null, "quantity": 1},
+                {"face_value": "King", "suite": null, "quantity": 1},
+                {"face_value": "Queen", "suite": null, "quantity": 1},
+                {"face_value": "Jack", "suite": null, "quantity": 1}
+            ]
+        }
+    },
+    {
+        "pinochle": {
+            "name": "Pinochle",
+            "value": 4,
+            "trump": false,
+            "must_span_all_suits": false,
+            "same_suit": false,
+            "priority": 0,
+            "cache": "pinochle",
+            "cards": [
+                {"face_value": "Jack", "suite": "Diamonds", "quantity": 1},
+                {"face_value": "Queen", "suite": "Spades", "quantity": 1}
+            ]
+        }
+    },
+    {
+        "aces_around": {
+            "name": "Aces Around",
+            "value": 10,
+            "trump": false,
+            "must_span_all_suits": true,
+            "same_suit": false,
+            "priority": 0,
+            "cache": "aces_around",
+            "cards": [
+                {"face_value": "Ace", "suite": null, "quantity": 4}
+            ]
+        }
+    },
+    {
+        "double_pinochle": {
+            "name": "Double Pinochle",
+            "value": 30,
+            "trump": false,
+            "must_span_all_suits": false,
+            "same_suit": false,
+            "priority": 1,
+            "cache": "pinochle",
+            "cards": [
+                {"face_value": "Jack", "suite": "Diamonds", "quantity": 2},
+                {"face_value": "Queen", "suite": "Spades", "quantity": 2}
+            ]
+        }
+    },
+    {
+        "kings_around": {
+            "name": "Kings Around",
+            "value": 8,
+            "trump": false,
+            "must_span_all_suits": true,
+            "same_suit": false,
+            "priority": 0,
+            "cache": "kings_around",
+            "cards": [
+                {"face_value": "King", "suite": null, "quantity": 4}
+            ]
+        }
+    },
+    {
+        "queens_around": {
+            "name": "Queens Around",
+            "value": 6,
+            "trump": false,
+            "must_span_all_suits": true,
+            "same_suit": false,
+            "priority": 0,
+            "cache": "queens_around",
+            "cards": [
+                {"face_value": "Queen", "suite": null, "quantity": 4}
+            ]
+        }
+    },        
+    {
+        "jacks_around": {
+            "name": "Jacks Around",
+            "value": 4,
+            "trump": false,
+            "must_span_all_suits": true,
+            "same_suit": false,
+            "priority": 0,
+            "cache": "jacks_around",
+            "cards": [
+                {"face_value": "Jack", "suite": null, "quantity": 4}
+            ]
+        }
+    },
+    {
+        "double_aces_around": {
+            "name": "Double Aces Around",
+            "value": 100,
+            "trump": false,
+            "must_span_all_suits": true,
+            "same_suit": false,
+            "priority": 1,
+            "cache": "aces_around",
+            "cards": [
+                {"face_value": "Ace", "suite": null, "quantity": 8}
+            ]
+        }
+    },
+    {
+        "double_kings_around": {
+            "name": "Double Kings Around",
+            "value": 80,
+            "trump": false,
+            "must_span_all_suits": true,
+            "same_suit": false,
+            "priority": 1,
+            "cache": "kings_around",
+            "cards": [
+                {"face_value": "King", "suite": null, "quantity": 8}
+            ]
+        }
+    },
+    {
+        "double_queens_around": {
+            "name": "Double Queens Around",
+            "value": 60,
+            "trump": false,
+            "must_span_all_suits": true,
+            "same_suit": false,
+            "priority": 1,
+            "cache": "queens_around",
+            "cards": [
+                {"face_value": "Queen", "suite": null, "quantity": 8}
+            ]
+        }
+    },
+    {
+        "double_jacks_around": {
+            "name": "Double Jacks Around",
+            "value": 40,
+            "trump": false,
+            "must_span_all_suits": true,
+            "same_suit": false,
+            "priority": 1,
+            "cache": "jacks_around",
+            "cards": [
+                {"face_value": "Jack", "suite": null, "quantity": 8}
+            ]
+        }
+    },
+    {
+        "double_run": {
+            "name": "Double Run",
+            "value": 150,
+            "trump": true,
+            "must_span_all_suits": false,
+            "same_suit": true,
+            "priority": 1,
+            "cache": "run",
+            "cards": [
+                {"face_value": "Ace", "suite": null, "quantity": 2},
+                {"face_value": "10", "suite": null, "quantity": 2},
+                {"face_value": "King", "suite": null, "quantity": 2},
+                {"face_value": "Queen", "suite": null, "quantity": 2},
+                {"face_value": "Jack", "suite": null, "quantity": 2}
+            ]
+        }
+    },
+    {
+        "dix": {
+            "name": "Dix",
+            "value": 1,
+            "trump": true,
+            "must_span_all_suits": false,
+            "same_suit": false,
+            "priority": 0,
+            "cache": "dix",
+            "cards": [
+                {"face_value": "9", "suite": "Trump", "quantity": 1}
+            ]
+        }
+    }
+]
